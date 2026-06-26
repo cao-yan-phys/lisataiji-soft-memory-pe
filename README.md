@@ -2,7 +2,7 @@
 
 This repository accompanies the paper **"Probing soft signals of gravitational-wave memory with space-based interferometers"** ([arXiv:2603.28689](https://arxiv.org/abs/2603.28689)).
 
-The example uses a soft displacement-memory signal with $H=10^{-19}$, $\lambda=\pi/4$, $\beta=\pi/3$, $\Psi=\pi/5$, $\tau_*=0.3$, $T=10^{-3}\,\mathrm{yr}$, and $f_{\max}=0.04\,\mathrm{Hz}$.
+The example uses a soft displacement-memory signal with $H=10^{-19}$, $\lambda=\pi/4$, $\beta=\pi/3$, $\Psi=\pi/5$, $\tau_*=0.3$, $T=10^{-3}\mathrm{yr}$, and $f_{\max}=0.04 \mathrm{Hz}$.
 
 ## Install
 
