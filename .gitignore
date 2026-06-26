@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/*.npz
+outputs/*.json
+outputs/*.csv
+outputs/*.pdf
+outputs/*.png
+!outputs/.gitkeep

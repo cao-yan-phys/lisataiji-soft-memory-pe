@@ -1,0 +1,33 @@
+event:
+  log10H: -19.0
+  Lambda: 0.7853981633974483
+  beta: 1.0471975511965976
+  Psi: 0.6283185307179586
+  taus: 0.3
+
+grid:
+  duration_yr: 0.001
+  sampling_frequency_hz: 1.0
+  eta: 0.7853981633974483
+
+noise:
+  # Taiji A, LISA A, Taiji E, LISA E. These reproduce the original PyCBC
+  # Gaussian noise realization used by the paper example.
+  seeds: [123, 124, 125, 126]
+
+run:
+  inject_noise: true
+
+diagnostics:
+  mf_maxiter: 160
+  fim_rel_step: 1.0e-5
+
+mcmc:
+  start: mle
+  n_walkers: 48
+  n_burn: 300
+  max_steps: 12000
+  chunk_size: 500
+  seed: 0
+  scatter: 1.0e-3
+  moves: robust
